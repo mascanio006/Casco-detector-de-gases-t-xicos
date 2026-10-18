@@ -1,1 +1,1 @@
-# Casco-detector-de-gases-t-xicos
+# Casco-detector-de-gases-tóxicos
