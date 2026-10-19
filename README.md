@@ -4,4 +4,4 @@ Sistema loT especialmente diseñado para trabajadores del sector minero. El casc
 
 
 ## Descripción del problema
-Los trabajadores del sector minero se exponen constantemente a afecciones respiratorias causadas por la inhalación excesiva de gases tóxicos; provocando enfermedades como edema pulmonar diferido (por gases nitrosos), envenenamiento por gas sulfrhídico (causado por la descomposición de minerales y aguas subterráneas), entre otros. cabe destacar que, si las enfermedades no son tratadas a tiempo pueden causar daños cerebrales y acortar la vida.
+Los trabajadores del sector minero se exponen constantemente a afecciones respiratorias causadas por la inhalación excesiva de gases tóxicos; provocando enfermedades como edema pulmonar diferido (por gases nitrosos), envenenamiento por gas sulfrhídico (causado por la descomposición de minerales y aguas subterráneas), entre otros. Si estas enfermedades no son tratadas a tiempo pueden causar daños cerebrales y acortar la vida.
