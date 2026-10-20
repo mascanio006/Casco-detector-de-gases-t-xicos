@@ -1,7 +1,7 @@
 # Casco detector de gases tóxicos
-Sistema loT especialmente diseñado para trabajadores del sector minero. El casco posee un sensor integrado que mide la cantidad en porcentaje de ciertos gases. Si la medición sobrepasa el nivel establecido el casco emitirá vibraciones, además de alertar al minero mediante una luz roja de que se encuentra en una circunstancia crítica. 
+Sistema loT especialmente diseñado para trabajadores del sector minero. El casco posee un sensor integrado que mide la cantidad en porcentaje del monóxido de carbono. Si la medición sobrepasa el nivel establecido el casco emitirá vibraciones, además de alertar al minero mediante una luz LED de que se encuentra en una circunstancia crítica. 
 ## Equipo
 
 
 ## Descripción del problema
-Los trabajadores del sector minero se exponen constantemente a afecciones respiratorias causadas por la inhalación excesiva de gases tóxicos; provocando enfermedades como edema pulmonar diferido (por gases nitrosos), envenenamiento por gas sulfrhídico (causado por la descomposición de minerales y aguas subterráneas), entre otros. Si estas enfermedades no son tratadas a tiempo pueden causar daños cerebrales y acortar la vida.
+Cuando hay demasiado monóxido de carbono en el aire, este gas reemplaza el oxígeno en los glóbulos rojos. Esto puede derivar en un daño grave en los tejidos o incluso en la muerte. Este gas es de alto riesgo ya que no tiene sabor, olor, ni color. La intoxicación de monóxido de carbono en personas mayores (los cuales conforman la mayor parte del personal obrero en el ámbito minero) puede derivar en daños cerebrales graves.
