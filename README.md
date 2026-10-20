@@ -4,4 +4,4 @@ Sistema loT especialmente diseñado para trabajadores del sector minero. El casc
 
 
 ## Descripción del problema
-Cuando hay demasiado monóxido de carbono en el aire, este gas reemplaza el oxígeno en los glóbulos rojos. Esto puede derivar en un daño grave en los tejidos o incluso en la muerte. Este gas es de alto riesgo ya que no tiene sabor, olor, ni color. La intoxicación de monóxido de carbono en personas mayores (los cuales conforman la mayor parte del personal obrero en el ámbito minero) puede derivar en daños cerebrales graves.
+Cuando hay demasiado monóxido de carbono en el aire, este gas reemplaza el oxígeno en los glóbulos rojos. Esto puede derivar en un daño grave en los tejidos o incluso en la muerte. Este gas es de alto riesgo ya que no tiene sabor, olor, ni color. La intoxicación de monóxido de carbono en personas mayores (los cuales conforman la mayor parte del personal obrero en el ámbito minero) puede derivar en daño cerebral.
