@@ -7,7 +7,7 @@ De manera complementaria, el proyecto se vincula con el Objetivo de Desarrollo S
 la necesidad de garantizar condiciones laborales seguras y el ODS 3 desde la protección de la salud y el bienestar de los trabajadores frente a la exposición al monóxido de carbono.
 
 ## Problemas, testing y soluciones:
-###El indicador POWER del MQ135 no encendía.
+### El indicador POWER del MQ135 no encendía.
 Se conectó VCC y GND directamente al ESP32 mediante cables hembra-hembra.
 POWER encendió. La prueba permitió localizar el problema en el recorrido anterior de alimentación, sin demostrar que todo el protoboard estuviera defectuoso.
 
