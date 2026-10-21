@@ -5,39 +5,39 @@
 
 1-**_Pin:_ 5V**
 
-A que se conecta: VCC del MQ135
+A que se conecta: VCC del MQ135.
 
-Función: alimentar el módulo sensor
+Función: alimentar el módulo sensor.
 
 2-**_Pin:_ GND**
 
-A que se conecta: GND del MQ135 y retornos del circuito
+A que se conecta: GND del MQ135 y retornos del circuito.
 
-Función: establecer una referencia eléctrica común
+Función: establecer una referencia eléctrica común.
 
 3-**_Pin:_  GPIO34 / P34**
 
-A que se conecta: unión entre las dos resistencias de 10 kΩ
+A que se conecta: unión entre las dos resistencias de 10 kΩ.
 
-Función: leer la señal analógica reducida del sensor
+Función: leer la señal analógica reducida del sensor.
 
 4-**_Pin:_ GPIO25 / P25**
 
-A que se conecta: resistencia de 220 Ω y ánodo del LED
+A que se conecta: resistencia de 220 Ω y ánodo del LED.
 
-Función: controlar la alerta visual
+Función: controlar la alerta visual.
 
 5-**_Pin:_ GPIO23 / P23**
 
-A que se conecta: resistencia de 220 Ω y positivo del buzzer
+A que se conecta: resistencia de 220 Ω y positivo del buzzer.
 
-Función: generar la señal de alerta sonora
+Función: generar la señal de alerta sonora.
 
 6-**_Pin:_  USB**
 
-A que se conecta: computador
+A que se conecta: computador.
 
-Función: alimentar la placa, cargar el programa y consultar el monitor serial
+Función: alimentar la placa, cargar el programa y consultar el monitor serial.
 
 ## Componentes utilizados
 
