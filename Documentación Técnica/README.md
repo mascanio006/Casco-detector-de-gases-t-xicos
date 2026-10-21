@@ -41,40 +41,60 @@ _Función:_ Alimentar la placa, cargar el programa y consultar el monitor serial
 
 ## Componentes utilizados
 
-1- ESP-32
+1- **ESP-32**
+
 Cantidad: 1
+
 Procesamiento, entradas y salidas, conexión WiFi.
 
-2- Módulo MQ135
+
+2- **Módulo MQ135**
+
 Cantidad: 1
+
 Sensor de gases con salida analógica; responde a distintas sustancias presentes en el aire.
 
-3- Protoboard
+3- **Protoboard**
+
 Cantidad: 1
+
 Montaje y modificación del circuito sin soldadura.
 
-4- LED rojo
+4- **LED rojo**
+
 Cantidad: 1
+
 Alerta visual continua cuando el programa activa la alarma.
 
-5- Buzzer CEET120B085
+5- **Buzzer CEET120B085**
+
 Cantidad: 1
+
 Transductor electromagnético que respondió a la excitación en modo pasivo. El sufijo completo del modelo debe verificarse para especificar sus valores nominales.
 
-6- Resistencias de 10 kΩ
+6- **Resistencias de 10 kΩ**
+
 Cantidad: 2
+
 Divisor de voltaje entre AO y GPIO34.
 
-7- Resistencias de 220 Ω
+
+7- **Resistencias de 220 Ω**
+
 Cantidad: 2
+
 Una para limitar la corriente del LED y otra para la conexión de prueba del buzzer.
 
-8- Cables jumper
+8- **Cables jumper**
+
 Cantidad: Varios
+
 Conexiones entre placa, protoboard y componentes.
 
-9- Cable USB
+9- **Cable USB**
+
 Cantidad: 1
+
 Alimentación y programación.
 
 
