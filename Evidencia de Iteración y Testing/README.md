@@ -8,6 +8,4 @@ la necesidad de garantizar condiciones laborales seguras y el ODS 3 desde la pro
 
 
 
-### _El buzzer no sonaba con una salida constante_
-Se probó una señal de frecuencia en modo pasivo. El buzzer comenzó a sonar, aunque con volumen bajo.
 
