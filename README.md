@@ -16,12 +16,6 @@ la necesidad de garantizar condiciones laborales seguras y el ODS 3 desde la pro
 
 ## Estructura del repositorio
 - Conceptualización del Encapsulado
-- Evidencia de Iteración y Testing
+   >
 - Documentación Técnica
 
-
-
-
-
-
-[Ir a la Documentación Técnica](#documentación-técnica)
