@@ -3,11 +3,9 @@
 
 ## Pines del ESP32
 
-_Pin:_ 5V
-
-_A que se conecta:_ VCC del MQ135
-
-_Función:_ Alimentar el módulo sensor
+-_Pin:_ 5V
+-_A que se conecta:_ VCC del MQ135
+-_Función:_ Alimentar el módulo sensor
 
 _Pin:_ GND.
 _A que se conecta:_ GND del MQ135 y retornos del circuito.
