@@ -29,6 +29,6 @@ Se modificó el programa para encenderlo de forma continua únicamente durante l
 ### _La detección del programa respondía lentamente_
 Se redujo el intervalo de lectura, se eliminó el filtro lento y se ajustó el umbral experimental. La última versión entregada evalúa la señal cada 100 ms y conserva la alerta durante al menos 3 segundos. Estos cambios no eliminan el tiempo de respuesta físico del sensor.
 
-### - El buzzer no sonaba con una salida constante.
+### _El buzzer no sonaba con una salida constante_
 Se probó una señal de frecuencia en modo pasivo. El buzzer comenzó a sonar, aunque con volumen bajo.
 
