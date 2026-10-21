@@ -6,7 +6,7 @@ condiciones laborales seguras y la protección de los trabajadores. En minería 
 De manera complementaria, el proyecto se vincula con el Objetivo de Desarrollo Sostenible 3: Salud y bienestar, orientado a proteger la salud de las personas y reducir factores que puedan afectarla negativamente. La exposición a monóxido de carbono puede provocar intoxicaciones y consecuencias graves para la salud, por lo que su detección oportuna puede contribuir a disminuir la exposición de los trabajadores. De esta manera, ambos ODS se relacionan directamente con la problem´atica: el ODS 8 desde
 la necesidad de garantizar condiciones laborales seguras y el ODS 3 desde la protección de la salud y el bienestar de los trabajadores frente a la exposición al monóxido de carbono.
 
-## Problemas, testing y soluciones:
+## Problemas y soluciones:
 ### _El indicador POWER del MQ135 no encendía_
 Se conectó VCC y GND directamente al ESP32 mediante cables hembra-hembra. POWER encendió. La prueba permitió localizar el problema en el recorrido anterior de alimentación, sin demostrar que todo el protoboard estuviera defectuoso.
 
