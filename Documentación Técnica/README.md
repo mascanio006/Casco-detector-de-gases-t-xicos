@@ -97,4 +97,25 @@ Cantidad: 1
 
 Función: alimentación y programación.
 
+## Cambios e iteraciones:
+### _El indicador POWER del MQ135 no encendía_
+Se conectó VCC y GND directamente al ESP32 mediante cables hembra-hembra. POWER encendió. La prueba permitió localizar el problema en el recorrido anterior de alimentación, sin demostrar que todo el protoboard estuviera defectuoso.
 
+### _Necesidad de modificar el montaje y cambiar el sensor en el futuro_
+Se utilizó protoboard en lugar de soldar.
+Se facilitaron las pruebas y sustituciones.
+
+### _Conexiones difíciles de organizar_
+Se redistribuyeron componentes y cables durante el armado. Se reforzó la identificación de filas, nodos y tierra común.
+
+### _Necesidad de limitar la corriente del LED_
+Se incorporó una resistencia de 220 Ω en serie. Se limitó la corriente que atraviesa el LED.
+
+### _Diferencia entre la alimentación del sensor y el nivel de entrada del ESP32_
+Se incorporó el divisor de dos resistencias de 10 kΩ. Se redujo la señal analógica antes de ingresar a GPIO34.
+
+### _El LED se encendía durante el calentamiento y emitía destellos sin alerta_
+Se modificó el programa para encenderlo de forma continua únicamente durante la alerta. La indicación visual quedó asociada al estado de alarma.
+
+### _La detección del programa respondía lentamente_
+Se redujo el intervalo de lectura, se eliminó el filtro lento y se ajustó el umbral experimental. La última versión entregada evalúa la señal cada 100 ms y conserva la alerta durante al menos 3 segundos. Estos cambios no eliminan el tiempo de respuesta físico del sensor.
