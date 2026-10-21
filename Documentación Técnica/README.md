@@ -1,4 +1,4 @@
-#Diagramas de circuito
+# Diagramas de circuito
 
 
 ## Pines del ESP32
