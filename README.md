@@ -25,5 +25,5 @@ la necesidad de garantizar condiciones laborales seguras y el ODS 3 desde la pro
 - Documentación Técnica
    > Código Fuente
    
-   > Diagrama de Circuitos
+   > Diagramas de Circuito
 
