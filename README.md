@@ -16,6 +16,11 @@ la necesidad de garantizar condiciones laborales seguras y el ODS 3 desde la pro
 
 ## Estructura del repositorio
 - Conceptualización del Encapsulado
-   >
+   > Modelo 3D
+   > Justificación de Diseño
+   > Integración Hardware-encapsulado
+   
 - Documentación Técnica
+   > Código Fuente
+   > Diagrama de Circuitos
 
