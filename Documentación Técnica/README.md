@@ -42,7 +42,7 @@ _Función:_ Generar la señal de alerta sonora
 
 
 
-_Pin:_  USB
+6-_Pin:_  USB
 
 _A que se conecta:_ Computador
 
