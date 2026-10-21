@@ -5,39 +5,39 @@
 
 1-**_Pin:_ 5V**
 
-_A que se conecta:_ VCC del MQ135
+A que se conecta: VCC del MQ135
 
-_Función:_ Alimentar el módulo sensor
+Función: alimentar el módulo sensor
 
 2-**_Pin:_ GND**
 
-_A que se conecta:_ GND del MQ135 y retornos del circuito
+A que se conecta: GND del MQ135 y retornos del circuito
 
-_Función:_ Establecer una referencia eléctrica común
+Función: establecer una referencia eléctrica común
 
 3-**_Pin:_  GPIO34 / P34**
 
-_A que se conecta:_ Unión entre las dos resistencias de 10 kΩ
+A que se conecta: unión entre las dos resistencias de 10 kΩ
 
-_Función:_ Leer la señal analógica reducida del sensor
+Función: leer la señal analógica reducida del sensor
 
 4-**_Pin:_ GPIO25 / P25**
 
-_A que se conecta:_ Resistencia de 220 Ω y ánodo del LED
+A que se conecta: resistencia de 220 Ω y ánodo del LED
 
-_Función:_  Controlar la alerta visual
+Función: controlar la alerta visual
 
 5-**_Pin:_ GPIO23 / P23**
 
-_A que se conecta:_ Resistencia de 220 Ω y positivo del buzzer
+A que se conecta: resistencia de 220 Ω y positivo del buzzer
 
-_Función:_ Generar la señal de alerta sonora
+Función: generar la señal de alerta sonora
 
 6-**_Pin:_  USB**
 
-_A que se conecta:_ Computador
+A que se conecta: computador
 
-_Función:_ Alimentar la placa, cargar el programa y consultar el monitor serial
+Función: alimentar la placa, cargar el programa y consultar el monitor serial
 
 ## Componentes utilizados
 
@@ -45,56 +45,56 @@ _Función:_ Alimentar la placa, cargar el programa y consultar el monitor serial
 
 Cantidad: 1
 
-Procesamiento, entradas y salidas, conexión WiFi.
+Función: procesamiento, entradas y salidas, conexión WiFi.
 
 
 2- **Módulo MQ135**
 
 Cantidad: 1
 
-Sensor de gases con salida analógica; responde a distintas sustancias presentes en el aire.
+Función: sensor de gases con salida analógica; responde a distintas sustancias presentes en el aire.
 
 3- **Protoboard**
 
 Cantidad: 1
 
-Montaje y modificación del circuito sin soldadura.
+Función: montaje y modificación del circuito sin soldadura.
 
 4- **LED rojo**
 
 Cantidad: 1
 
-Alerta visual continua cuando el programa activa la alarma.
+Función: alerta visual continua cuando el programa activa la alarma.
 
 5- **Buzzer CEET120B085**
 
 Cantidad: 1
 
-Transductor electromagnético que respondió a la excitación en modo pasivo. El sufijo completo del modelo debe verificarse para especificar sus valores nominales.
+Función: transductor electromagnético que respondió a la excitación en modo pasivo. El sufijo completo del modelo debe verificarse para especificar sus valores nominales.
 
 6- **Resistencias de 10 kΩ**
 
 Cantidad: 2
 
-Divisor de voltaje entre AO y GPIO34.
+Función: divisor de voltaje entre AO y GPIO34.
 
 
 7- **Resistencias de 220 Ω**
 
 Cantidad: 2
 
-Una para limitar la corriente del LED y otra para la conexión de prueba del buzzer.
+Función: una para limitar la corriente del LED y otra para la conexión de prueba del buzzer.
 
 8- **Cables jumper**
 
 Cantidad: Varios
 
-Conexiones entre placa, protoboard y componentes.
+Función: conexiones entre placa, protoboard y componentes.
 
 9- **Cable USB**
 
 Cantidad: 1
 
-Alimentación y programación.
+Función: alimentación y programación.
 
 
