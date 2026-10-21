@@ -1,4 +1,4 @@
-# C A M I
+# Avance de C A M I
 CAMI (Casco de Ayuda Minera Inmediata) es un sistema loT especialmente diseñado para trabajadores del sector minero que ejercen su labor en minas subterráneas. El casco posee un sensor integrado que mide, en tiempo real, la presencia de monóxido de carbono. Si la medición cumple con la condición de alerta programada, el casco emitirá una vibración, un ruido y una luz LED para advertirle al minero que se encuentra en una circunstancia crítica.
 ## Equipo
 
