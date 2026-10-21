@@ -7,28 +7,28 @@ De manera complementaria, el proyecto se vincula con el Objetivo de Desarrollo S
 la necesidad de garantizar condiciones laborales seguras y el ODS 3 desde la protección de la salud y el bienestar de los trabajadores frente a la exposición al monóxido de carbono.
 
 ## Problemas, testing y soluciones:
-### El indicador POWER del MQ135 no encendía.
+### - El indicador POWER del MQ135 no encendía.
 Se conectó VCC y GND directamente al ESP32 mediante cables hembra-hembra. POWER encendió. La prueba permitió localizar el problema en el recorrido anterior de alimentación, sin demostrar que todo el protoboard estuviera defectuoso.
 
-### Necesidad de modificar el montaje y cambiar el sensor en el futuro.
+### - Necesidad de modificar el montaje y cambiar el sensor en el futuro.
 Se utilizó protoboard en lugar de soldar.
 Se facilitaron las pruebas y sustituciones.
 
-### Conexiones difíciles de organizar.
+### - Conexiones difíciles de organizar.
 Se redistribuyeron componentes y cables durante el armado. Se reforzó la identificación de filas, nodos y tierra común.
 
-### Necesidad de limitar la corriente del LED. 
+### - Necesidad de limitar la corriente del LED. 
 Se incorporó una resistencia de 220 Ω en serie. Se limitó la corriente que atraviesa el LED.
 
-### Diferencia entre la alimentación del sensor y el nivel de entrada del ESP32.
+### - Diferencia entre la alimentación del sensor y el nivel de entrada del ESP32.
 Se incorporó el divisor de dos resistencias de 10 kΩ. Se redujo la señal analógica antes de ingresar a GPIO34.
 
-### El LED se encendía durante el calentamiento y emitía destellos sin alerta.
+### - El LED se encendía durante el calentamiento y emitía destellos sin alerta.
 Se modificó el programa para encenderlo de forma continua únicamente durante la alerta. La indicación visual quedó asociada al estado de alarma.
 
-### La detección del programa respondía lentamente.
+### - La detección del programa respondía lentamente.
 Se redujo el intervalo de lectura, se eliminó el filtro lento y se ajustó el umbral experimental. La última versión entregada evalúa la señal cada 100 ms y conserva la alerta durante al menos 3 segundos. Estos cambios no eliminan el tiempo de respuesta físico del sensor.
 
-### El buzzer no sonaba con una salida constante.
+### - El buzzer no sonaba con una salida constante.
 Se probó una señal de frecuencia en modo pasivo. El buzzer comenzó a sonar, aunque con volumen bajo.
 
