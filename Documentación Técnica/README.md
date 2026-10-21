@@ -1,44 +1,5 @@
 # Diagramas de circuito
 
-
-## Pines del ESP32
-
-1-**_Pin:_ 5V**
-
-A que se conecta: VCC del MQ135.
-
-Función: alimentar el módulo sensor.
-
-2-**_Pin:_ GND**
-
-A que se conecta: GND del MQ135 y retornos del circuito.
-
-Función: establecer una referencia eléctrica común.
-
-3-**_Pin:_  GPIO34 / P34**
-
-A que se conecta: unión entre las dos resistencias de 10 kΩ.
-
-Función: leer la señal analógica reducida del sensor.
-
-4-**_Pin:_ GPIO25 / P25**
-
-A que se conecta: resistencia de 220 Ω y ánodo del LED.
-
-Función: controlar la alerta visual.
-
-5-**_Pin:_ GPIO23 / P23**
-
-A que se conecta: resistencia de 220 Ω y positivo del buzzer.
-
-Función: generar la señal de alerta sonora.
-
-6-**_Pin:_  USB**
-
-A que se conecta: computador.
-
-Función: alimentar la placa, cargar el programa y consultar el monitor serial.
-
 ## Componentes utilizados
 
 1- **ESP-32**
@@ -97,6 +58,44 @@ Cantidad: 1
 
 Función: alimentación y programación.
 
+## Pines del ESP32
+
+1-**_Pin:_ 5V**
+
+A que se conecta: VCC del MQ135.
+
+Función: alimentar el módulo sensor.
+
+2-**_Pin:_ GND**
+
+A que se conecta: GND del MQ135 y retornos del circuito.
+
+Función: establecer una referencia eléctrica común.
+
+3-**_Pin:_  GPIO34 / P34**
+
+A que se conecta: unión entre las dos resistencias de 10 kΩ.
+
+Función: leer la señal analógica reducida del sensor.
+
+4-**_Pin:_ GPIO25 / P25**
+
+A que se conecta: resistencia de 220 Ω y ánodo del LED.
+
+Función: controlar la alerta visual.
+
+5-**_Pin:_ GPIO23 / P23**
+
+A que se conecta: resistencia de 220 Ω y positivo del buzzer.
+
+Función: generar la señal de alerta sonora.
+
+6-**_Pin:_  USB**
+
+A que se conecta: computador.
+
+Función: alimentar la placa, cargar el programa y consultar el monitor serial.
+
 ## Cambios e iteraciones:
 ### _El indicador POWER del MQ135 no encendía_
 Se conectó VCC y GND directamente al ESP32 mediante cables hembra-hembra. POWER encendió. La prueba permitió localizar el problema en el recorrido anterior de alimentación, sin demostrar que todo el protoboard estuviera defectuoso.
@@ -119,3 +118,6 @@ Se modificó el programa para encenderlo de forma continua únicamente durante l
 
 ### _La detección del programa respondía lentamente_
 Se redujo el intervalo de lectura, se eliminó el filtro lento y se ajustó el umbral experimental. La última versión entregada evalúa la señal cada 100 ms y conserva la alerta durante al menos 3 segundos. Estos cambios no eliminan el tiempo de respuesta físico del sensor.
+
+### _El buzzer no sonaba con una salida constante_
+Se probó una señal de frecuencia en modo pasivo. El buzzer comenzó a sonar, aunque con volumen bajo.
