@@ -4,6 +4,10 @@
 
 Foto 1: Vista general
 
+![imagen alt](https://github.com/mascanio006/Casco-detector-de-gases-t-xicos/blob/196de11212b34a421d3733b6c63ad1561014d90d/Conceptualizaci%C3%B3n%20del%20Encapsulado/Modelo%203D/Foto%202.png)
+
+Foto 2: Vista parcial del interior y agujero en la parte delantera
+
 ## Justificación del diseño
 
 ## Integración hardware-encapsulado
