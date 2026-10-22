@@ -4,6 +4,7 @@
 
 Foto 1: Diagrama de circuito del sensor
 
+
 El prototipo utiliza un sensor MQ135 conectado a una placa ESP32 para detectar variaciones en su señal ante la presencia de humo. El ESP32 procesa la lectura y controla dos salidas: un LED rojo de alerta y un buzzer pasivo. Además, transmite los datos a una página web mediante una red WiFi propia.
 
 El circuito se montó en un protoboard con cables jumper. Esta decisión permitió modificar conexiones y reemplazar componentes durante las pruebas, sin soldar el sistema.
