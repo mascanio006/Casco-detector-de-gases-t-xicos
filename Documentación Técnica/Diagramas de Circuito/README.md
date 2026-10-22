@@ -1,4 +1,4 @@
-# Diagrama de circuito
+# Diagrama de circuito del sensor
 
 ![imagen alt](https://github.com/mascanio006/Casco-detector-de-gases-t-xicos/blob/5954e6161be8534786e09ebd8e5f0c46f2082786/Documentaci%C3%B3n%20T%C3%A9cnica/Diagramas%20de%20Circuito/Diagrama.jpeg)
 
