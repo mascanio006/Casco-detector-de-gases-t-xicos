@@ -1,5 +1,9 @@
 # Diagramas de circuito
 
+![imagen alt](https://github.com/mascanio006/Casco-detector-de-gases-t-xicos/blob/5954e6161be8534786e09ebd8e5f0c46f2082786/Documentaci%C3%B3n%20T%C3%A9cnica/Diagramas%20de%20Circuito/Diagrama.jpeg)
+
+Foto 1: Diagrama del circuito del sensor
+
 El prototipo utiliza un sensor MQ135 conectado a una placa ESP32 para detectar variaciones en su señal ante la presencia de humo. El ESP32 procesa la lectura y controla dos salidas: un LED rojo de alerta y un buzzer pasivo. Además, transmite los datos a una página web mediante una red WiFi propia.
 
 El circuito se montó en un protoboard con cables jumper. Esta decisión permitió modificar conexiones y reemplazar componentes durante las pruebas, sin soldar el sistema.
