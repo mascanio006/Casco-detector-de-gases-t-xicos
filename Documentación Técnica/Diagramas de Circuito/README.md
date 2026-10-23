@@ -26,7 +26,8 @@ Por ejemplo, si AO entrega 5 V, GPIO34 recibe aproximadamente 2,5 V.
 ### Conexión de los actuadores
 
 El LED se conectó desde GPIO25 mediante una resistencia de 220 Ω hasta su ánodo —pata larga—. Su cátodo —pata corta— se conectó a GND. En la última versión del programa, permanece apagado durante la espera inicial y se enciende de forma continua durante la alerta.
-Evidencia y limitaciones del montaje
+
+### Evidencia y limitaciones del montaje
 
 El volumen del buzzer quedó como una limitación pendiente. Se propuso incorporar una etapa con transistor y protección para manejarlo adecuadamente; esa mejora no se incluye como implementada en este diagrama.
 
