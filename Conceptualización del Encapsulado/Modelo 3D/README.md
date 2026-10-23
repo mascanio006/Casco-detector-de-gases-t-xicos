@@ -18,4 +18,4 @@ Foto 4: Vista del interior, lado izquierdo de la caja respecto al agujero.
 
 ## Diseño
 La caja fue diseñada con espacio suficiente para contener en su interior el sensor y la placa de desarrollo. Asimismo, el agujero facilita la lectura del monóxido de carbono por parte del sensor.
-La caja esta diseñada de tal forma que proteja los componentes sin impedir que el sensor ejecute su función. Se tiene planeado que la caja este adherida por debajo de las alas del casco, para así evitar daños.
+La caja esta diseñada de tal forma que proteja los componentes sin impedir que el sensor ejecute su función. Se tiene planeado que la caja este adherida por debajo de las alas del casco para así evitar daños.
