@@ -1,6 +1,6 @@
 # Código fuente
 
-*
+```*
   CASCO INTELIGENTE - DETECCION DE CO (prototipo alpha)
   Taller de Diseño en Ingenieria - TEI201
   Placa: ESP32 | Sensor: MQ-135 | Actuadores: LED RGB + buzzer | Conectividad: WiFi
@@ -307,4 +307,4 @@ void loop() {
   Serial.print(rs);             Serial.print(",");
   Serial.print(ppmSuave);       Serial.print(",");
   Serial.println(nivel);
-}
+}```
