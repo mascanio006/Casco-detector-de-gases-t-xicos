@@ -30,8 +30,6 @@ la necesidad de garantizar condiciones laborales seguras y el ODS 3 desde la pro
    
    > Diagramas de Circuito
 
-En el avance presentamos el diseño, fabricación y encapsulado del sensor del casco. 
-
 ## Dashboard IoT – ThingSpeak
 
 Para el monitoreo remoto de CAMI se creó un canal privado en ThingSpeak, plataforma que permite almacenar y visualizar datos enviados por dispositivos IoT.
