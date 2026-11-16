@@ -32,3 +32,23 @@ la necesidad de garantizar condiciones laborales seguras y el ODS 3 desde la pro
 
 En el avance presentamos el diseño, fabricación y encapsulado del sensor del casco. 
 
+## Dashboard IoT – ThingSpeak
+
+Para el monitoreo remoto de CAMI se creó un canal privado en ThingSpeak, plataforma que permite almacenar y visualizar datos enviados por dispositivos IoT.
+
+El dashboard incluye:
+
+* Field 1: Voltaje del sensor (V).
+* Field 2: Lectura analógica del sensor (ADC).
+* Field 3: Estado de alerta (0 = normal, 1 = precaución, 2 = alarma).
+
+Además, se implementaron tres indicadores visuales: verde para estado normal, amarillo para precaución y rojo para alarma.
+
+### Pruebas realizadas
+
+Se realizaron pruebas manuales mediante la API de ThingSpeak para verificar la recepción, almacenamiento y visualización de datos.
+
+Se comprobó el funcionamiento del indicador de voltaje con un valor simulado de 2,5 V y del indicador ADC con un valor simulado de 1800.
+
+**Estado actual**: El dashboard funciona con datos de prueba. Está pendiente su integración con las mediciones reales de la ESP32 y la validación de los umbrales de alerta.
+
