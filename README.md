@@ -69,7 +69,17 @@ const char THINGSPEAK_WRITE_KEY[] = "CLAVE_PRIVADA_VIGENTE";
 
 ## Diseño 3D y estado del desarrollo
 
-Se fabricaron tres carcasas impresas en 3D con tapas y aberturas para los componentes. Las fotografías anteriores muestran el resultado físico. Los archivos nativos de Fusion 360 y los planos acotados deben incorporarse cuando estén disponibles; las imágenes del diseño anterior en el repositorio no representan necesariamente las tres cajas nuevas.
+Se fabricaron tres carcasas impresas en 3D con tapas y aberturas para los componentes. Las fotografías anteriores muestran el resultado físico. **Ya se incluyen los seis archivos nativos de Fusion 360** correspondientes a las cajas y tapas:
+
+| Módulo | Diseño de caja | Diseño de tapa |
+|---|---|---|
+| Control y sensor | [`Caja Sensor ESP32.f3d`](Caja%20Sensor%20ESP32.f3d) | [`Tapa Sensor ESP32.f3d`](Tapa%20Sensor%20ESP32.f3d) |
+| Alimentación | [`caja_bateia.f3d`](caja_bateia.f3d) | [`tapa_bateria.f3d`](tapa_bateria.f3d) |
+| Alertas | [`caja_luces.f3d`](caja_luces.f3d) | [`tapa_luces.f3d`](tapa_luces.f3d) |
+
+**Pendiente:** incorporar planos acotados en PDF, si están disponibles.
+
+**Versiones anteriores:** las imágenes de `Conceptualización del Encapsulado/Modelo 3D`, el diagrama de `Documentación Técnica/Diagramas de Circuito` y el código descrito en `Documentación Técnica/Código Fuente/README.md` corresponden a etapas previas del proyecto (MQ-135). **No deben interpretarse como el diseño ni las conexiones finales del prototipo MQ-7.** El diagrama actualizado de conexiones aún está pendiente de documentar.
 
 ## Documentación y fuentes
 
@@ -78,3 +88,7 @@ Se fabricaron tres carcasas impresas en 3D con tapas y aberturas para los compon
 - [`docs/`](docs/): capturas del dashboard ThingSpeak realizadas previamente.
 
 **Estado de entrega:** repositorio documental del prototipo. Las verificaciones eléctricas, de transmisión y de funcionamiento deben respaldarse con resultados reales antes de declararse completadas.
+
+
+
+
