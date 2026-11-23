@@ -1,29 +1,38 @@
-Diagramas de circuito — CAMI
+Código fuente — CAMI
 
-Evolución del prototipo
+Descripción
 
-El archivo Diagrama.jpeg corresponde a una versión anterior del circuito CAMI, que utilizaba un sensor MQ-135, un LED rojo y un buzzer.
+El programa principal del prototipo CAMI se encuentra en el archivo CAMI_FINAL_GITHUB.ino, desarrollado para una placa ESP32.
 
-Este diagrama se conserva como evidencia del desarrollo del proyecto, pero no representa el circuito definitivo.
+El firmware utiliza un sensor MQ-7 para detectar variaciones en su señal analógica y controlar un sistema de alertas luminosas y sonoras.
 
-Versión actual
+Conexiones programadas
 
-El firmware CAMI_FINAL_GITHUB.ino contempla una ESP32, un sensor MQ-7, tres indicadores luminosos y un buzzer.
+Componente	Pin ESP32
+Sensor MQ-7 (AO)	GPIO34, mediante divisor de tensión
+LED verde	GPIO25
+LED amarillo	GPIO26
+LED rojo	GPIO27
+Buzzer	GPIO23, mediante transistor BC547
 
-Las conexiones descritas en el programa son:
+Estas conexiones corresponden al programa y deben comprobarse en el circuito físico.
 
-* MQ-7 AO: divisor de tensión con resistencias de 10 kΩ hacia GPIO34.
-* MQ-7 VCC: alimentación de 5 V.
-* MQ-7 GND: tierra común.
-* Luz verde: GPIO25.
-* Luz amarilla: GPIO26.
-* Luz roja: GPIO27.
-* Buzzer: GPIO23, mediante una etapa de control con transistor BC547.
+Funcionamiento
 
-Verificación pendiente
+El programa contempla tres estados:
 
-El equipo debe incorporar el diagrama actualizado del montaje real, incluyendo alimentación, interruptor, resistencias, buzzer y conexiones a tierra.
+* Normal: LED verde encendido.
+* Prealerta: LED amarillo encendido.
+* Alerta: LED rojo y buzzer activados.
 
-Las conexiones indicadas anteriormente provienen del firmware y no constituyen una verificación del cableado físico.
+Los umbrales experimentales son aumentos de 120 y 300 unidades ADC respecto de una referencia. No equivalen a concentraciones de CO en ppm.
 
-El proyecto corresponde a un prototipo académico y no a un sistema de detección de gases certificado.
+Dashboard
+
+El programa incluye un panel web local para visualizar lecturas, consultar estados y ejecutar pruebas de las salidas. También incorpora funciones de registro CSV y comunicación con ThingSpeak.
+
+Estas funciones deben verificarse con la ESP32 encendida y conectada al montaje real.
+
+Limitaciones
+
+El sensor no cuenta con calibración validada para determinar concentraciones de CO en ppm. CAMI es un prototipo académico y no un dispositivo de seguridad certificado.
