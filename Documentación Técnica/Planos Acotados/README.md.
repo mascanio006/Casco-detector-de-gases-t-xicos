@@ -1,0 +1,14 @@
+Planos Acotados — CAMI
+
+Esta carpeta contiene los planos técnicos acotados de los componentes diseñados en Autodesk Fusion 360 para el proyecto CAMI (Casco Inteligente de Monitoreo Ambiental).
+
+Los planos incluyen vistas y dimensiones en milímetros de los siguientes componentes:
+
+* Caja del sensor ESP32.
+* Tapa del sensor ESP32.
+* Caja de batería.
+* Tapa de batería.
+* Caja de luces.
+* Tapa de luces.
+
+Estos diseños documentan las piezas utilizadas en la construcción del prototipo y facilitan su fabricación mediante impresión 3D.
